@@ -27,7 +27,7 @@ export default function Home() {
           </a>
           <div className="nav-links" aria-label="Page sections">
             <a href="#features">Features</a>
-            <a href="#live">Live</a>
+            <a href="#tour">Tour</a>
             <a href="#privacy">Privacy</a>
             <a href="#faq">FAQ</a>
           </div>
@@ -65,8 +65,8 @@ export default function Home() {
 
         <div className="hero-visual rise delay-4">
           <img
-            src="/assets/ninety-hand-hero.png"
-            alt="A hand holding an iPhone with Ninety's matchday screen open"
+            src="/assets/ninety-two-hands-home.png"
+            alt="Two hands holding an iPhone with Ninety's real matchday screen open"
           />
         </div>
       </section>
@@ -122,19 +122,12 @@ export default function Home() {
           </div>
 
           <div className="track-visual reveal">
-            <div className="pitch-glow" aria-hidden="true" />
-            <div className="floating-note note-goal">
-              <span className="pulse-dot" />
-              GOAL · 64′
-            </div>
-            <div className="floating-note note-lineup">LINEUPS CONFIRMED</div>
-            <div className="phone-frame track-phone">
-              <img
-                src="/assets/match-story-en.png"
-                alt="Ninety match detail with score, scorers and match sections"
-                loading="lazy"
-              />
-            </div>
+            <img
+              className="track-hand"
+              src="/assets/ninety-track-hand-story.png"
+              alt="A hand holding an iPhone with Ninety's real match story screen open"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
@@ -149,60 +142,6 @@ export default function Home() {
           </p>
         </div>
         <TourRail />
-      </section>
-
-      <section className="glance-section" id="live" aria-labelledby="glance-title">
-        <div className="section-heading centered reveal">
-          <p className="section-label">ALWAYS IN VIEW</p>
-          <h2 id="glance-title">Ninety, without opening Ninety.</h2>
-          <p>
-            Live Activities keep the score and match state on your Lock Screen
-            and Dynamic Island. Widgets keep the next match one glance away.
-          </p>
-        </div>
-
-        <div className="glance-stage reveal" aria-label="Ninety at a glance">
-          <article className="orbit-card next-card">
-            <div className="orbit-topline">
-              <img src="/assets/ninety-icon.png" alt="" />
-              <span>NEXT MATCH</span>
-            </div>
-            <strong>Al Hilal · Al Nassr</strong>
-            <p>Tonight · 9:00 PM</p>
-            <div className="mini-score">
-              <span>HIL</span><b>—</b><span>NAS</span>
-            </div>
-          </article>
-
-          <div className="lock-phone" aria-label="Ninety Live Activity on a Lock Screen">
-            <div className="lock-wallpaper" aria-hidden="true" />
-            <div className="lock-island" aria-hidden="true" />
-            <p className="lock-date">Thursday, 28 August</p>
-            <strong className="lock-time">9:41</strong>
-            <div className="activity-card">
-              <div className="activity-meta">
-                <span><i /> LIVE · 67′</span>
-                <span>PRO LEAGUE</span>
-              </div>
-              <div className="activity-score">
-                <div><b>H</b><small>Al Hilal</small></div>
-                <strong>2 <em>—</em> 1</strong>
-                <div><b>N</b><small>Al Nassr</small></div>
-              </div>
-              <p>One match. One clear glance.</p>
-            </div>
-          </div>
-
-          <article className="orbit-card alert-card">
-            <div className="alert-app">
-              <img src="/assets/ninety-icon.png" alt="" />
-              <span>Ninety</span>
-              <time>now</time>
-            </div>
-            <strong>Al Hilal scores!</strong>
-            <p>67′ · 2–1 against Al Nassr</p>
-          </article>
-        </div>
       </section>
 
       <section className="language-section" id="language" aria-labelledby="language-title">
