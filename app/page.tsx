@@ -124,8 +124,8 @@ export default function Home() {
           <div className="track-visual reveal">
             <img
               className="track-hand"
-              src="/assets/ninety-track-hand-story.png"
-              alt="A hand holding an iPhone with Ninety's real match story screen open"
+              src="/assets/ninety-home-hands.png"
+              alt="Two hands holding an iPhone with Ninety's real match feed open"
               loading="lazy"
             />
           </div>
