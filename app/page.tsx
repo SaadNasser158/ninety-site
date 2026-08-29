@@ -65,7 +65,7 @@ export default function Home() {
 
         <div className="hero-visual rise delay-4">
           <img
-            src="/assets/ninety-two-hands-home.png"
+            src="/assets/ninety-two-hands-home-v2.png"
             alt="Two hands holding an iPhone with Ninety's real matchday screen open"
           />
         </div>
