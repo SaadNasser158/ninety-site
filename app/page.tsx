@@ -1,7 +1,5 @@
 import TourRail from './TourRail';
 
-const railwayBase = 'https://ninety-api-production-6b1b.up.railway.app';
-
 function StoreBadge() {
   return (
     <div className="store-badge" aria-label="Coming soon on the App Store">
@@ -178,7 +176,7 @@ export default function Home() {
               Your football should feel personal without becoming a profile
               about you. Ninety keeps the relationship simple.
             </p>
-            <a href={`${railwayBase}/privacy`}>
+            <a href="/privacy">
               Read the privacy policy <span aria-hidden="true">↗</span>
             </a>
           </div>
@@ -263,9 +261,9 @@ export default function Home() {
             <span>Ninety</span>
           </a>
           <nav aria-label="Legal">
-            <a href={`${railwayBase}/privacy`}>Privacy</a>
-            <a href={`${railwayBase}/terms`}>Terms</a>
-            <a href={`${railwayBase}/support`}>Support</a>
+            <a href="/privacy">Privacy</a>
+            <a href="/terms">Terms</a>
+            <a href="/support">Support</a>
           </nav>
           <p>© 2026 Ninety. Made for matchday.</p>
         </div>
