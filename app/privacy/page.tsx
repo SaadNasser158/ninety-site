@@ -15,7 +15,7 @@ export default function PrivacyPage() {
       eyebrow="Ninety legal"
       title={<>Privacy,<br /><em>without the fine print.</em></>}
       description="Ninety is built around your football, not a profile of you. Here is the plain-language version of how the app handles data."
-      updated="Last updated: August 25, 2026"
+      updated="Last updated: September 12, 2026"
     >
       <div className="legal-columns">
         <article className="legal-column">
@@ -35,8 +35,9 @@ export default function PrivacyPage() {
           <LegalSection>
             <h2>Retention and deletion</h2>
             <ul>
-              <li>Turning off match alerts or Live Activities deletes the related service registration.</li>
-              <li>Inactive registrations are automatically removed after 60 days.</li>
+              <li>Turning off match alerts or Live Activities promptly removes the related registration from Ninety’s active service records.</li>
+              <li>Inactive registrations are automatically removed from active service records after 60 days.</li>
+              <li>Records removed from the active service may remain temporarily in encrypted backups. Backups are created daily and kept as a rolling set of 30 verified copies—about 30 days under normal operation—then expire automatically as newer copies replace them.</li>
               <li>Deleting the app removes preferences and cached data stored locally on the device.</li>
             </ul>
           </LegalSection>
@@ -54,7 +55,7 @@ export default function PrivacyPage() {
           <LegalSection>
             <h2>خصوصيتك في تسعين</h2>
             <p>تسعين هو كرة القدم بلا تتبع. لا يحتاج إلى حساب، ولا يعرض إعلانات، ولا يستخدم أدوات تحليل سلوك المستخدم.</p>
-            <p>آخر تحديث: 25 أغسطس 2026</p>
+            <p>آخر تحديث: 12 سبتمبر 2026</p>
           </LegalSection>
           <LegalSection>
             <h2>ما يبقى على جهازك</h2>
@@ -72,8 +73,9 @@ export default function PrivacyPage() {
           <LegalSection>
             <h2>الاحتفاظ والحذف</h2>
             <ul>
-              <li>يؤدي إيقاف تنبيهات المباريات أو الأنشطة المباشرة إلى حذف تسجيل الخدمة المرتبط بها.</li>
-              <li>تُحذف التسجيلات غير النشطة تلقائيًا بعد 60 يومًا.</li>
+              <li>عند إيقاف تنبيهات المباريات أو الأنشطة المباشرة، يُزال التسجيل المرتبط بها سريعًا من سجلات الخدمة النشطة.</li>
+              <li>تُزال التسجيلات غير النشطة من سجلات الخدمة النشطة تلقائيًا بعد 60 يومًا.</li>
+              <li>قد تبقى السجلات التي أُزيلت من الخدمة النشطة مؤقتًا ضمن نسخ احتياطية مشفّرة. تُنشأ نسخة يوميًا ويُحتفظ بآخر 30 نسخة موثقة — نحو 30 يومًا في ظروف التشغيل المعتادة — ثم تنتهي صلاحية النسخ تلقائيًا عندما تحل محلها نسخ أحدث.</li>
               <li>يؤدي حذف التطبيق إلى إزالة التفضيلات والبيانات المخزنة محليًا على الجهاز.</li>
             </ul>
           </LegalSection>
